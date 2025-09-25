@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>沼田市の塾｜個別指導塾 free（1対2個別指導・通い放題）</title>
+  <meta name="description" content="沼田市の塾なら個別指導塾 free。1対2個別指導と通い放題で、定期テスト・高校受験・大学受験・英検（5級〜準1級）に対応。自習は授業日使い放題／通い放題は常時可。" />
+  <link rel="canonical" href="https://free-juku-numata.jp/"><!-- ←公開後のURLに変更 -->
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#38bdf8" />
+
+  <!-- OGP / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="沼田市の塾｜個別指導塾 free（1対2個別指導・通い放題）">
+  <meta property="og:description" content="1対2個別指導と通い放題で、わかる→できるへ。定期テスト・受験・英検（5級〜準1級）対応。">
+  <meta property="og:url" content="https://free-juku-numata.jp/">
+  <meta property="og:image" content="https://free-juku-numata.jp/ogp.png"><!-- 1200x630 を用意できたら -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a0a0a'/><text x='50' y='58' font-size='60' text-anchor='middle' fill='%23fff' font-family='Arial'>f</text></svg>">
+  <style>
+    :root{
+      /* 白ベース＋水色、アクセントにやさしい黄色 */
+      --bg:#ffffff;
+      --panel:#ffffff;
+      --panel-alt:#f7fbff;
+      --text:#222222;          /* ネイビー不使用・濃いグレー */
+      --muted:#475569;         /* サブ文字（ややグレー寄り） */
+      --brand:#38bdf8;         /* 主色：水色 */
+      --brand-weak:#16a3e6;    /* ホバー用の濃い水色 */
+      --accent:#ffd54f;        /* 差し色：やさしい黄色 */
+      --line:#e2e8f0;          /* 罫線色 */
+      --max:1100px;
+      --radius:18px;
+      --shadow:0 10px 30px rgba(2,132,199,.12);
+      --linegreen:#06C755;     /* LINE公式カラー */
+      --linegreen-d:#05a94c;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", "Meiryo", sans-serif;}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;height:auto;border-radius:12px}
+    .wrap{max-width:var(--max);margin:auto;padding:24px}
+
+    header{position:sticky;top:0;background:rgba(255,255,255,.8);
+      backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--line);z-index:20}
+    .nav{display:flex;align-items:center;gap:20px;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:36px;height:36px;border-radius:10px;
+      background:linear-gradient(135deg,var(--brand),#9ee8ff);display:grid;place-items:center;color:#0b0c10;font-weight:800}
+    .navlinks{display:flex;gap:16px;flex-wrap:wrap}
+    .navlinks a{padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+    .cta{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{padding:12px 16px;border-radius:14px;border:1px solid var(--line);
+      display:inline-flex;gap:8px;align-items:center;justify-content:center;background:var(--panel)}
+    .btn.primary{background:var(--brand);color:#083344;font-weight:700;border:none}
+    .btn.primary:hover{background:var(--brand-weak)}
+    .btn.outline:hover{border-color:var(--brand);color:var(--brand)}
+    /* LINE強化ボタン */
+    .btn.line{background:var(--linegreen);color:#ffffff;border:none;font-weight:700}
+    .btn.line:hover{background:var(--linegreen-d)}
+    .btn .icon{display:inline-block;vertical-align:middle}
+
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center;padding:36px 0}
+    .hero h1{font-size:clamp(28px,4.2vw,46px);line-height:1.2;margin:0 0 12px}
+
+    .chiprow{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 22px}
+    .chip{font-size:14px;color:#334155;border:1px solid #bae6fd;padding:8px 12px;border-radius:999px;background:#e0f2fe}
+
+    .panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+
+    .kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+    .kpi .card{padding:18px;border-radius:14px;border:1px solid var(--line);background:var(--panel-alt)}
+    .kpi .num{font-size:28px;font-weight:800;color:var(--brand)}
+
+    section{padding:36px 0;content-visibility:auto;contain-intrinsic-size:1px 800px}
+    h2{font-size:clamp(22px,3.2vw,30px);margin:0 0 12px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    .muted{color:var(--muted)}
+
+    .price{font-size:38px;font-weight:800;color:#0891b2;display:inline-block;background:#e0f2fe;padding:8px 14px;border-radius:14px;line-height:1.2}
+
+    .list{margin:12px 0;padding-left:18px}
+    .list li{margin:6px 0}
+
+    .badge{display:inline-block;background:#e7f2ff;border:1px solid var(--line);padding:4px 10px;border-radius:999px;color:#1e3a5f;font-size:12px}
+
+    .note{background:#fffbe6;border:1px dashed #ffe08a;padding:14px;border-radius:12px;color:#7a6400}
+
+    .faq details{background:var(--panel-alt);border:1px solid var(--line);padding:16px;border-radius:12px}
+    .faq details+details{margin-top:10px}
+
+    footer{border-top:1px solid var(--line);padding:28px 0 60px;color:var(--muted)}
+
+    .access .map{background:#eef6ff;border:1px solid var(--line);border-radius:12px;display:grid;place-items:center;color:var(--muted);aspect-ratio:16/9;overflow:hidden}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .grid3{grid-template-columns:1fr}
+      .grid2{grid-template-columns:1fr}
+      .kpi{grid-template-columns:1fr 1fr}
+      .navlinks{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <div class="logo">f</div>
+        <div>
+          <strong>個別指導塾 free</strong><br>
+          <span class="badge">沼田市｜1対2個別指導と通い放題</span>
+        </div>
+      </div>
+      <nav class="navlinks">
+        <a href="#features">特徴</a>
+        <a href="#courses">コース</a>
+        <a href="#price">料金</a>
+        <a href="#access">アクセス</a>
+        <a href="#contact">問い合わせ</a>
+      </nav>
+      <div class="cta">
+        <a class="btn line" href="https://lin.ee/gJxUEir" target="_blank" rel="noopener" aria-label="LINEで無料体験を予約">
+          <!-- LINEアイコン（SVG） -->
+          <svg class="icon" width="18" height="18" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <path fill="#fff" d="M18 3C9.163 3 2 9.268 2 17c0 5.514 3.91 10.29 9.5 12.41V33l5.2-3.13c.42.03.85.05 1.3.05 8.837 0 16-6.268 16-14S26.837 3 18 3zM11.5 16h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6z"/>
+          </svg>
+          無料体験を予約（LINE）
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <h1>専任講師が最後まで伴走。<br><strong style="color:var(--brand)">1対2個別指導</strong>と<strong style="color:var(--brand)">通い放題</strong>で、わかる→できるへ。</h1>
+        <div class="chiprow">
+          <span class="chip">講師：生徒 = <strong>1：2の個別指導がメイン</strong></span>
+          <span class="chip">通い放題コースあり</span>
+          <span class="chip">自習：授業日は使い放題／通い放題は常時可</span>
+          <span class="chip">Wi-Fi無料・無料駐車場あり</span>
+          <span class="chip">平日・土祝 16:00–22:00／<strong>日曜休講</strong></span>
+        </div>
+        <div class="note">無料体験（60分）＋学習相談で現状と目標を可視化。予約は公式LINEからどうぞ。</div>
+        <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn line" href="https://lin.ee/gJxUEir" target="_blank" rel="noopener" aria-label="LINEで無料体験を予約">
+            <svg class="icon" width="18" height="18" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path fill="#fff" d="M18 3C9.163 3 2 9.268 2 17c0 5.514 3.91 10.29 9.5 12.41V33l5.2-3.13c.42.03.85.05 1.3.05 8.837 0 16-6.268 16-14S26.837 3 18 3zM11.5 16h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6z"/>
+            </svg>
+            無料体験を予約（LINE）
+          </a>
+          <a class="btn" href="#price">料金を見る</a>
+        </div>
+        <div class="kpi">
+          <div class="card"><div class="num">1対2</div><div class="muted">個別指導スタイル</div></div>
+          <div class="card"><div class="num">通い放題</div><div class="muted">学習習慣を定着</div></div>
+          <div class="card"><div class="num">英検OK</div><div class="muted">5級〜準1級対応</div></div>
+        </div>
+      </div>
+      <div class="panel" style="padding:18px">
+        <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1400&auto=format&fit=crop"
+             alt="学習風景のイメージ"
+             width="1200" height="800"
+             loading="eager" fetchpriority="high" decoding="async" />
+        <div class="muted" style="margin-top:8px;font-size:12px">※写真はイメージです</div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <h2>free が選ばれる理由</h2>
+      <p class="muted">「わかったつもり」を残さない、少人数×反復で理解を積み上げます。</p>
+      <div class="grid3">
+        <div class="card">
+          <strong>専任講師のみ</strong>
+          <p class="muted">学年が変わっても講師が変わらないから安心。弱点の継続フォローができます。</p>
+        </div>
+        <div class="card">
+          <strong>1対2個別指導</strong>
+          <p class="muted">「説明→演習→すぐ質問」のサイクルで定着。</p>
+        </div>
+        <div class="card">
+          <strong>自習スペース＆環境</strong>
+          <p class="muted">個別指導コースは<strong>授業日</strong>に使い放題。通い放題コースは<strong>常時利用可</strong>。<br>教室Wi-Fiは無料／敷地内に無料駐車場あり。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="courses">
+      <h2>コース</h2>
+      <div class="grid2">
+        <div class="card">
+          <div class="badge">小中高</div>
+          <h3>個別指導コース（1対2）</h3>
+          <ul class="list">
+            <li>主要5科の定期テスト対策</li>
+            <li>入試対策（高校受験・大学受験）</li>
+            <li>英検対策（5級〜準1級／教科選択式）</li>
+            <li>学校課題サポート</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">小5〜高3</div>
+          <h3>個別指導 & 通い放題コース</h3>
+          <ul class="list">
+            <li>毎日でも通塾OK（時間帯指定）</li>
+            <li>自習スペース常時利用可／質問対応</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">オプション</div>
+          <h3>直前講座</h3>
+          <ul class="list">
+            <li>英検直前講座</li>
+            <li>定期テスト直前講座（直前1〜2週間）</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="badge">季節講習</div>
+          <h3>夏期講習・冬期講習</h3>
+          <ul class="list">
+            <li>弱点補強と総復習</li>
+            <li>学習計画の見直し</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Price -->
+    <section id="price">
+      <h2>料金</h2>
+      <div class="grid3">
+        <div class="card">
+          <h3>個別指導コース（週1コマ〜）</h3>
+          <ul class="list">
+            <li>小学生：<span class="price">10,000円〜 / 月</span></li>
+            <li>中高生：<span class="price">12,000円〜 / 月</span></li>
+          </ul>
+          <a class="btn line" href="https://lin.ee/gJxUEir" target="_blank" rel="noopener" aria-label="LINEで質問・相談">
+            <svg class="icon" width="18" height="18" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path fill="#fff" d="M18 3C9.163 3 2 9.268 2 17c0 5.514 3.91 10.29 9.5 12.41V33l5.2-3.13c.42.03.85.05 1.3.05 8.837 0 16-6.268 16-14S26.837 3 18 3zM11.5 16h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6z"/>
+            </svg>
+            LINEで質問・相談
+          </a>
+        </div>
+        <div class="card">
+          <h3>個別指導 & 通い放題コース</h3>
+          <p class="price">20,000円〜 / 月</p>
+          <ul class="list">
+            <li>自習スペース常時利用可</li>
+            <li>質問し放題（時間帯内）</li>
+          </ul>
+          <a class="btn line" href="https://lin.ee/gJxUEir" target="_blank" rel="noopener" aria-label="LINEで無料体験を予約">
+            <svg class="icon" width="18" height="18" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path fill="#fff" d="M18 3C9.163 3 2 9.268 2 17c0 5.514 3.91 10.29 9.5 12.41V33l5.2-3.13c.42.03.85.05 1.3.05 8.837 0 16-6.268 16-14S26.837 3 18 3zM11.5 16h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6z"/>
+            </svg>
+            無料体験を予約（LINE）
+          </a>
+        </div>
+        <div class="card">
+          <h3>初期費用・その他</h3>
+          <ul class="list">
+            <li>入会金：10,000円（初回）</li>
+            <li>設備費：10,000円（初年度のみ）</li>
+            <li>テキスト：市販教材を使用（1教科 約1,000円）</li>
+            <li>兄弟割引あり</li>
+            <li>自習スペース：個別指導は<strong>授業日</strong>使い放題／通い放題は<strong>常時</strong>可</li>
+            <li>Wi-Fi無料・無料駐車場あり</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">営業時間：<strong>平日・土曜・祝日 16:00–22:00</strong> ／ <strong>日曜休講</strong> ／ 時間外の利用は要相談。</p>
+    </section>
+
+    <!-- News -->
+    <section id="news">
+      <h2>お知らせ</h2>
+      <div class="grid3">
+        <article class="card">
+          <div class="badge">NEW</div>
+          <h3>無料体験 受付中</h3>
+          <p class="muted">初回60分の体験授業＋学習相談。LINEから予約できます。</p>
+        </article>
+        <article class="card">
+          <h3>定期テスト対策 直前講座</h3>
+          <p class="muted">定期テスト2週間前からの集中サポートを実施します。</p>
+        </article>
+        <article class="card">
+          <h3>英検対策のご案内</h3>
+          <p class="muted">5級〜準1級まで一次・二次ともにサポートします。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h2>よくある質問</h2>
+      <details>
+        <summary>体験授業はできますか？</summary>
+        <p>はい、60分の無料体験が可能です。学習相談を含めて<strong>約70分</strong>を想定しています。</p>
+      </details>
+      <details>
+        <summary>授業の振替は可能ですか？</summary>
+        <p>当日欠席の場合は振替不可、<strong>事前のご連絡がある場合は振替可能</strong>です。</p>
+      </details>
+      <details>
+        <summary>月の途中からの入会はできますか？</summary>
+        <p>はい、可能です。<strong>初月分は日割り計算</strong>となります。</p>
+      </details>
+      <details>
+        <summary>通い方（コース）の変更はできますか？</summary>
+        <p>可能です。翌月分からの変更を基本とし、詳細はLINEでご相談ください。</p>
+      </details>
+    </section>
+
+    <!-- Access -->
+    <section id="access" class="access">
+      <h2>アクセス</h2>
+      <div class="grid2">
+        <div class="card">
+          <p><strong>個別指導塾 free</strong><br>
+          群馬県沼田市高橋場町2215-10（編集可）<br>
+          無料駐車場あり</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn" href="https://share.google/p3pPUQppE3uZtspze" target="_blank" rel="noopener">地図を開く</a>
+          </div>
+        </div>
+        <div class="map">
+          <!-- ▼ Googleマップ埋め込み（ご指定のiframeを反映） -->
+          <iframe title="googlemap"
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d225483.6354300182!2d139.16742354198482!3d36.68909611109071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z5YCL5Yil5oyH5bCO5aG-IGZyZWU!5e0!3m2!1sja!2sjp!4v1758787530036!5m2!1sja!2sjp"
+            width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>お問い合わせ・無料体験予約</h2>
+      <div class="card" style="text-align:center">
+        <p class="muted">お問い合わせは<strong>公式LINEのみ</strong>で承っています。</p>
+        <p>
+          <a class="btn line" href="https://lin.ee/gJxUEir" target="_blank" rel="noopener" style="font-size:18px" aria-label="LINEで問い合わせ・予約する">
+            <svg class="icon" width="20" height="20" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path fill="#fff" d="M18 3C9.163 3 2 9.268 2 17c0 5.514 3.91 10.29 9.5 12.41V33l5.2-3.13c.42.03.85.05 1.3.05 8.837 0 16-6.268 16-14S26.837 3 18 3zM11.5 16h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6zm4 0h2v6h-2v-6z"/>
+            </svg>
+            公式LINEで問い合わせ・予約する
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Legal -->
+    <section id="legal">
+      <h2>プライバシー / 特商法</h2>
+      <div class="grid2">
+        <div class="card">
+          <h3>プライバシーポリシー（要約）</h3>
+          <p class="muted">お問い合わせで取得する氏名・連絡先・学年などの個人情報は、問い合わせ対応および学習サポートの目的にのみ利用します。第三者提供は行いません。詳細は完全版をご確認ください。</p>
+        </div>
+        <div class="card">
+          <h3>特定商取引法に基づく表記（抜粋）</h3>
+          <ul class="list">
+            <li>事業者名：個別指導塾 free</li>
+            <li>所在地：群馬県沼田市高橋場町2215-10（編集可）</li>
+            <li>役務の対価・支払い時期：契約書/申込書に記載</li>
+            <li>キャンセル/振替：規約に準拠</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="wrap">
+    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>
+        <strong>個別指導塾 free</strong>
+        <div class="muted">© <span id="y"></span> free All rights reserved.</div>
+      </div>
+      <div class="muted">
+        <a href="privacy.html">プライバシーポリシー</a>｜<a href="tokushoho.html">特定商取引法に基づく表記</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- 構造化データ（検索向け） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "個別指導塾 free",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "JP",
+      "addressRegion": "群馬県",
+      "addressLocality": "沼田市",
+      "streetAddress": "高橋場町2215-10"
+    },
+    "url": "https://free-juku-numata.jp/",
+    "areaServed": "沼田市・周辺",
+    "description": "1対2個別指導と通い放題。自習は授業日使い放題／通い放題は常時可。定期テスト・高校受験・大学受験・英検5級〜準1級まで対応。",
+    "sameAs": ["https://lin.ee/gJxUEir"]
+  }
+  </script>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
